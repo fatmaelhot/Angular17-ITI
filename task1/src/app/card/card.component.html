@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="user.image" class="card-img-top" >
+    <div class="card-body">
+        <h3 class="card-title">{{user.username}} 
+            <i class="fa-solid fa-star" [style.color]="user.is_verified?'green':'red'"></i>
+        </h3>
+        <p>Email : {{user.email}}</p>
+        <p>Phone : {{user.phone}}</p>
+        
+        
+    </div>
+</div>
