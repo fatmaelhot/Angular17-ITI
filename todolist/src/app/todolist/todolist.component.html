@@ -1,0 +1,13 @@
+<div>
+    @for (todo of InputFromParent; track InputFromParent; let i = $index) {
+        <div class="todo border border-primary d-flex  shadow border ">
+            <div class="flex-grow-1 p-2 ">
+                
+                {{todo}}
+            </div>
+           
+            <button class="p-2 bg-warning border-1" (click)="deleteTodo(i)">Delete</button>
+            
+        </div>
+    }
+</div>
