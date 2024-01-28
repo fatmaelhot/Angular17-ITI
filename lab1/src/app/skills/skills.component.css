@@ -1,0 +1,25 @@
+.skill{
+    background-color: #656c6b;
+}
+.progress-bar{
+    background-color: black;
+   
+}
+ 
+#myabout .button2{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+}
+#myabout .button2:hover{
+background-color: black;
+color: white;
+}
+#myabout .button1{
+    transition: all 1s;
+}
+#myabout .button1:hover{
+background-color: white;
+border: 1px solid black;
+color: black;
+}

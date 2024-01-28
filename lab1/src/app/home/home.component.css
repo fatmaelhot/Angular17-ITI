@@ -1,0 +1,12 @@
+.custom{
+    min-height: calc(100vh - 150px);
+    background-color: #656c6b;
+}
+img{
+    width: 250px;
+}
+.line {
+    width: 17%;
+    height: 4px;
+    background-color: #fff;
+}
