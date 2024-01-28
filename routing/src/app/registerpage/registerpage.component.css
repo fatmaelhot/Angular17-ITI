@@ -1,0 +1,14 @@
+.registration-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  

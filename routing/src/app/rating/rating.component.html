@@ -1,0 +1,12 @@
+<div class="rating">
+    <span class="stars" style="margin-right: 1rem;">
+        @for (item of createRange(rating) ; track $index) {
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        }
+
+        @for (i of createRange(5-rating); track $index) {
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        }
+    </span>
+    <span>{{rating}}</span>
+</div>

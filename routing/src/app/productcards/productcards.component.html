@@ -1,0 +1,24 @@
+<div class="container box-shadow border ">
+    <div class="img">
+        <img [src]="product.images[0]" alt="product image">
+    </div>
+    <div class="info">
+        <div class="name-price">
+            <h3>{{product.title}}</h3>
+            <h3>{{product.price | currency}}</h3>
+        </div>
+        <app-rating [rating]="product.rating"></app-rating>
+        <p>{{product.description}}</p>
+
+    </div>
+    <div class="controls">
+        <button class="btn btn-success">Add to Cart</button>
+        <button class="btn btn-success" (click)="goToProductDetails()">More Details</button>
+    </div>
+
+    @if (product.stock > 0) {
+    <div class="stock in-stock">In Stock</div>
+    }@else {
+    <div class="stock out-stock">Out of Stock</div>
+    }
+</div>
