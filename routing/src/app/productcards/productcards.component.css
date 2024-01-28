@@ -1,0 +1,53 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stock {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .5rem;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.in-stock {
+    background-color: green;
+}
+
+.out-stock {
+    background-color: red;
+}
+
+.img {
+    flex-grow: 1;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info h3 {
+    margin: 0px;
+}
+
+.info .name-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
