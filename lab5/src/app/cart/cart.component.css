@@ -1,0 +1,14 @@
+.container-fluid {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    margin-top: 10vh;
+    width: 70%;
+}
+h1{
+    color: #14584b;
+}

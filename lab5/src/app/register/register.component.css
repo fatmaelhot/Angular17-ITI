@@ -1,0 +1,21 @@
+.container {
+  
+   
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .form {
+    width: 100%;
+    margin-top: 100px;
+}
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
