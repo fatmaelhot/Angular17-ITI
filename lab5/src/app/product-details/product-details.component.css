@@ -1,0 +1,60 @@
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #007bff; 
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #28a745; 
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #218838; 
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  
+  img.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
